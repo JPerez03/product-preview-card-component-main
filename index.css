@@ -1,0 +1,159 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face {
+    font-family: fraunces;
+    src: url(./fraunceline.ttf);
+}
+body{
+    background-color: #f3eae4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+#mainpanel{
+    background-color: white;
+    border-radius: 1vh;
+}
+#ImgScent{
+    display: flex;
+    max-width: 30vh;
+    border-top-left-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+}
+#ImgScents{
+    display: flex;
+    max-width: 30vh;
+    border-top-left-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+}
+#sectionImage{
+    display: flex;
+    max-width: 50vh;
+    max-height: 100%;
+    float: right;
+}
+#sectionDetails{
+   float: left;
+}
+#sectionInfo{
+    padding: 3.3vh 4vh 4vh 4vh;
+}
+#perfumeDetails{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ab9e9e;
+    justify-content: left;
+    letter-spacing: 4px;
+    font-size: 1.5vh;
+    padding-bottom: 2vh;
+}
+#titleGab{
+    font-size: 3.0vh;
+    max-width: 19vh;
+    font-weight: 900;
+    font-family: fraunces;
+}
+#bodyDetails{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    max-width: 22vh;
+    font-size: 1.5vh;
+    line-height: 1.4;
+    margin-top: 2vh 
+}
+#newprice{
+    font-size: 3.5vh;
+    color: #467563;
+    margin-top: 2vh;
+    font-family: fraunces;
+    font-weight: 900;
+    float: left;
+}
+#oldprice{
+    float: right;
+    margin-top: 3.5vh;
+    font-family: fraunces;
+    color:gray;
+    font-size: 1.5vh;
+}
+#btnCart{
+    background-color: #418169;
+    color: white;
+    font-family: fraunces;
+    border-radius: 1vh;
+    border-color: #418169;
+    border: 0;
+    padding: 1.5vh 6.5vh 1.5vh 6.5vh;
+    text-align: center;
+    margin-top: 1.5vh;
+}
+@media screen and (min-width : 444px) {
+
+   #ImgScent1{
+      display: none;
+   }
+ 
+ }
+@media screen and (max-width : 443px) {
+
+   #sectionDetails{
+    display: none;
+   }
+   #ImgScent1{
+        max-width: 100%;
+        border-top-right-radius: 1vh;
+        border-top-left-radius: 1vh;
+   }
+   #sectionImage {
+        display: block;
+        max-width: 42vh;
+        max-height: 100%;
+        float: right;
+    }
+    #titleGab {
+        font-size: 3.5vh;
+        max-width: 100%;
+        font-weight: 900;
+        font-family: fraunces;
+    }
+    #bodyDetails {
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        max-width: 100%;
+        font-size: 1.8vh;
+        line-height: 1.4;
+        margin-top: 2vh;
+    }
+    #oldprice {
+        font-family: fraunces;
+        color: gray;
+        font-size: 1.5vh;
+        padding-left: -5vh;
+        float: left;
+    }
+    #newprice {
+        font-size: 3.5vh;
+        color: #467563;
+        margin-top: 2vh;
+        font-family: fraunces;
+        font-weight: 900;
+        float: left;
+        margin-right: 4vh;
+    }
+    #btnCart {
+        background-color: #418169;
+        color: white;
+        font-family: fraunces;
+        border-radius: 1vh;
+        border-color: #418169;
+        border: 0;
+        margin-top: 2.5vh;
+        width: 100%;
+        padding-bottom: 1.5vh;
+        padding-top: 1.5vh;
+    }
+  
+
+}
